@@ -12,7 +12,7 @@
       </div>
       <div class="modal-body">
         <form id="frmAgregarContactoU">
-          <div id="categoriasIdU"></div>
+        <div id="categoriasIdU"></div>
           <input type="text" id="idContactoU" name="idContactoU" hidden="">
           <label for="nombreU">Nombre</label>
           <input type="text" class="form-control" id="nombreU" name="nombreU">

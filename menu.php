@@ -33,18 +33,15 @@
         </a>
       </li>
 
-      <div class="btn-group">
+       <div class="btn-group">
         <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
           Enlaces</button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href= "http://www.appsgeyser.com/" target="_blank" rel="nofollow" title="Accede a AppsGeyser">FlightRadar 24</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href= "https://www.flightradar24.com/-33.2,-70.52/7" target="_blank" rel="nofollow" title="Accede a FlightRadar">FlightRadar 24</a>
+              <a class="dropdown-item" href="https://www.406registration.com/" target="_blank" rel="nofollow" title="Accede a 406 Registration">406 Registration</a>
           </div>
           
        </div>
-      
-  
     
   </div>
 </nav>

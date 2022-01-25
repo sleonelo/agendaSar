@@ -38,14 +38,15 @@
 		public function obtenerDatosContacto($idContacto) {
 			$conexion = Conexion::conectar();
 
-			$sql = "SELECT id_categoria,
+			$sql = "SELECT  id_contacto,
+							id_categoria,
 							nombre,
 							provincia,
 							departamento,
 							telefono,
 							responsable,
-							descripcion_tc,
-							id_contacto  
+							descripcion_tc
+							 
 					FROM t_contactos 
 					WHERE id_contacto = '$idContacto'";
 			$result = mysqli_query($conexion, $sql);
@@ -60,7 +61,7 @@
 				"departamento" => $contacto['departamento'],
 				"telefono" => $contacto['telefono'],
 				"responsable" => $contacto['responsable'],
-				"info" => $contacto['descripcion_tc'] 
+				"descripcion_tc" => $contacto['descripcion_tc'] 
 					);
 			return $datos;
 		}
