@@ -42,14 +42,14 @@ CREATE TABLE `t_categorias` (
 --
 
 CREATE TABLE `t_contactos` (
-  `id_agenda` int(11) NOT NULL,
+  `id_contacto` int(11) NOT NULL,
   `id_categoria` int(11) NOT NULL,
   `nombre` varchar(245) DEFAULT NULL,
   `provincia` varchar(245) DEFAULT NULL,
   `departamento` varchar(245) DEFAULT NULL,
   `telefono` varchar(145) DEFAULT NULL,
   `responsable` varchar(245) DEFAULT NULL,
-  `descripcion_tc` varchar(245) DEFAULT NULL,
+  `descripcion_tc` varchar(500) DEFAULT NULL,
   `fechaInsert` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
